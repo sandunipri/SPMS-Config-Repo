@@ -13,3 +13,5 @@ spring:
       hibernate:
         dialect: org.hibernate.dialect.MySQL8Dialect
 
+jwt:
+  secret: "DGD57GN854SDFMDFGSDGPP865S7DFGNSHH6W89JSHDFB3UQ"
