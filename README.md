@@ -1,13 +1,24 @@
-# 🛠️ Smart Parking System – Config Repository
+# Smart Parking System – Config Repository
 
-This is the centralized configuration repository for the **Smart Parking Management System**. It stores externalized `.yml` configuration files for all microservices and is used by the Spring Cloud Config Server.
+This is the centralized configuration repository for the **Smart Parking Management System**, designed to manage and serve externalized configuration properties to all microservices through the **Spring Cloud Config Server**.
 
-## 📁 Structure
+Each configuration file is written in YAML format and maps to a corresponding microservice. The Config Server reads these files and delivers the configuration dynamically to services at runtime.
 
--├── application.yml
--├── eureka-server.yml
--├── config-server.yml
--├── gateway-service.yml
--├── user-service.yml
--├── parking-service.yml
--├── parking-reservation-service.yml
+## Repository Structure
+
+SPMS-Config-Repo/
+├── application.yml # Global/shared configuration
+├── eureka-server.yml # Configuration for Eureka Server
+├── config-server.yml # Configuration for Config Server itself
+├── gateway-service.yml # Configuration for API Gateway
+├── user-service.yml # Configuration for User Service
+├── vehicle-service.yml # Configuration for Vehicle Service
+├── parking-space-service.yml # Configuration for Parking Space Service
+├── parking-reservation-service.yml # Configuration for Reservation Service
+├── security-service.yml # Configuration for Security Service
+
+## Usage
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/your-username/SPMS-Config-Repo.git
