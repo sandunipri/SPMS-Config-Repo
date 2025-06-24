@@ -7,13 +7,13 @@ Each configuration file is written in YAML format and maps to a corresponding mi
 ## Repository Structure
 
 SPMS-Config-Repo/
-- application.yml # Global/shared configuration
-- eureka-server.yml # Configuration for Eureka Server
-- user-service.yml # Configuration for User Service
-- vehicle-service.yml # Configuration for Vehicle Service
-- parking-space-service.yml # Configuration for Parking Space Service
-- parking-reservation-service.yml # Configuration for Reservation Service
-- security-service.yml # Configuration for Security Service
+- application.yml
+- eureka-server.yml 
+- user-service.yml
+- vehicle-service.yml
+- parking-space-service.yml
+- parking-reservation-service.yml 
+- security-service.yml
 
 ## Usage
 
