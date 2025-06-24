@@ -4,7 +4,6 @@ This is the centralized configuration repository for the **Smart Parking Managem
 
 ## 📁 Structure
 
-.
 ├── application.yml
 ├── eureka-server.yml
 ├── config-server.yml
