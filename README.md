@@ -19,4 +19,4 @@ SPMS-Config-Repo/
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/SPMS-Config-Repo.git
+   git clone https://github.com/sandunipri/SPMS-Config-Repo.git
